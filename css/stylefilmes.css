@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap');
+
+header h1, h2{
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*HEADER*/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/filmes.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 70vh;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .fcapa h1{
+    color: rgb(248, 248, 68);
+    margin: 0px;
+    font-size: 70px;
+  }
+
+  header .fcapa h2{
+    color: rgb(245, 243, 243);
+    margin: 25px;
+    font-size: 70px;
+  }
+
+ /*POSICIONAMENTO DE ELEMENTO - STICKY*/
+  nav{
+    background-color: rgb(41, 38, 38);
+    padding: 0.1px;
+    margin-top: 0em;
+  }
+
+  nav ul{
+    display: flex;
+    margin-top: 10px;
+  }
+
+  nav ul li{
+    margin-left: 2.0em;
+  }
+
+  nav.nav-sticky {
+    position: -webkit-sticky;
+    position: sticky; top: 0px;
+  }
+
+  nav ul li a {
+    color: rgb(248, 248, 68);
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    color: rgb(238, 230, 230);
+    text-decoration: underline;
+  }
+
+/*MAIN*/
+main{
+  margin: 0px;
+  background-color: rgb(73, 73, 73);
+  color: white;
+  padding-top: 1px;
+}
+
+.cabeçalho h1{
+  padding: 25px;
+  color:rgb(248, 248, 68);
+  font-size: 65px;
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.fa-calendar-times{
+  background-color: rgb(44, 44, 43);
+  border-radius: 8px;
+  color: rgb(241, 241, 241);
+  padding: 10px 10px 10px;
+}
+
+#calendario{
+  padding: 0px 1px 10px 5px;
+  margin-top: 0px;
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+#txtcalend{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.texto{
+  font-size: 25px;
+  padding: 25px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+.imagem{
+  width: 1150px;
+  height: 530px;
+  padding-left: 100px;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  width: 1040px;
+  height: 530px;
+  margin-top: 100px;
+}
+
+.maisfilmes h2{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.maisfilmes h2::after{
+  content: '';
+  flex: 1;
+  margin-left: 0.2rem;
+  height: 5px;
+  background-color: #ffeb3b;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.mais {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  height: 340px;
+  grid-column: 1/6;
+  border-radius: 15px;
+  align-content: center;
+  background-color: #3838383d;
+  height: 380px;
+  width: 1125px;
+  margin: 20px;
+  transition: background-color 0.5s;
+  will-change: background-color;
+}
+
+#espaço{
+  padding-top: 250px;
+  padding-bottom: 10px;
+}
+
+.mais:hover {
+  background-color: #292929;
+}
+
+.imgs {
+  grid-column: 1/5;
+  width: 675px;
+  height: 290px;
+  margin: 40px;
+}
+
+.imgs > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.color {
+  color: #f4f1fa;
+  text-shadow: rgb(24, 22, 22) 0.1em 0.1em 0.2em;
+}
+/*Matrix*/
+.texmatrix {
+  padding-top: 40px;
+  padding-right: 40px;
+  grid-column: 5/7;
+}
+
+.texmatrix a {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: #0ea816;
+  text-shadow: rgb(24, 22, 22) 0.1em 0.1em 0.2em;
+  text-decoration: none;
+}
+
+.texmatrix a:hover {
+  text-decoration: underline;
+  color: #0ea816;
+}
+
+/*Dragon ball*/
+.texdragon {
+  padding-top: 40px;
+  padding-right: 40px;
+  grid-column: 5/7;
+}
+
+.texdragon a {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: rgb(240, 170, 41);
+  text-shadow: rgb(24, 22, 22) 0.1em 0.1em 0.2em;
+  text-decoration: none;
+}
+
+.texdragon a:hover {
+  text-decoration: underline;
+  color: rgb(240, 170, 41);
+}
+
+/*thor*/
+.texthor {
+  padding-top: 40px;
+  padding-right: 40px;
+  grid-column: 5/7;
+}
+
+.texthor a {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: #1899e4;
+  text-shadow: rgb(24, 22, 22) 0.1em 0.1em 0.2em;
+  text-decoration: none;
+}
+
+
+.texthor a:hover {
+  text-decoration: underline;
+}
+
+.texmatrix p, .texthor p, .texdragon {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+#espaço{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+/*FOOTER*/
+footer{
+  background-color: rgb(27, 27, 27);
+  
+}
+
+.opções h1{
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+footer .fim{
+  text-align: center;
+  display: flex;
+  padding-top: 1px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+footer .fim .opções ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 500px;
+  padding: 0;
+}
+
+footer section .opções h1{
+  color: aliceblue;
+}
+
+footer section .opções a{
+  margin: 30px;
+  font-size: 50px;
+  color: yellow;
+}
+
+footer section .opções a:hover{
+  color: #e3e7e3;
+}
+
+@media screen and (min-width: 320px) {
+  header, main, footer, nav {
+    width: 1349px;
+    /*height: 530px;*/
+    flex-basis: 50%;
+  }
+}

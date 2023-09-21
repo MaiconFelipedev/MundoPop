@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap');
+
+header h1, h2{
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*HEADER*/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://www.reviewgeek.com/p/uploads/2020/07/121095c7.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .fcapa h1{
+    color: rgb(248, 248, 68);
+    margin: 0px;
+    font-size: 70px;
+  }
+
+  header .fcapa h2{
+    color: rgb(245, 243, 243);
+    margin: 25px;
+    font-size: 70px;
+  }
+  
+/*MAIN*/
+main{
+  margin: 0px;
+  background-color: rgb(73, 73, 73);
+  color: white;
+  padding-top: 1px;
+}
+
+.cabeçalho h1{
+  padding: 25px;
+  color:rgb(248, 248, 68);
+  font-size: 65px;
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+#espaço{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+/*FOOTER*/
+footer{
+  background-color: rgb(27, 27, 27);
+  
+}
+
+.opções h1{
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive; 
+}
+
+footer .fim{
+  text-align: center;
+  display: flex;
+  padding-top: 1px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+footer .fim .opções ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 500px;
+  padding: 0;
+}
+
+footer section .opções h1{
+  color: aliceblue;
+}
+
+footer section .opções a{
+  margin: 30px;
+  font-size: 50px;
+  color: yellow;
+}
+
+footer section .opções a:hover{
+  color: #e3e7e3;
+}
+
+@media screen and (min-width: 320px) {
+  header, main, footer, nav {
+    width: 1349px;
+    /*height: 530px;*/
+    flex-basis: 50%;
+  }
+}
+  

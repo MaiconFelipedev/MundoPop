@@ -1,0 +1,1 @@
+Olá, esse projeto teve como objetivo nosso aprendizado com as linguagens de marcação HTML e CSS, durante o 1º período do Curso de Sistemas para Internet no IFPB João Pessoa.

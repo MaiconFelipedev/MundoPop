@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Monoton&family=Press+Start+2P&display=swap');
+
+header h1{
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  font-family: 'Kodchasan', sans-serif;
+  margin: 0px;
+}
+
+/*HEADER*/
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/teste.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header .capa h1{
+  color: yellow;
+}
+
+header .capa h1{
+  margin: 0px;
+  font-size: 100px;
+}
+
+header .capa p{
+  color: white;
+}
+
+header .capa p{
+  font-size: 2rem;
+}
+
+/*header .capa .detalhe{
+  color: whitesmoke;
+  background-color: rgb(223, 203, 30);
+  border-radius: 10px;
+  font-size: 1.7rem;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}*/
+
+/*MAIN*/
+
+/*main{
+  padding: 100px 20%;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+}*/
+
+main .centro .figuras{
+  background-color: yellow;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+  width: 6em;
+  height: 6em;
+  margin: auto;
+}
+
+main .centro .figuras:hover{
+  background-color: rgb(179, 179, 179);
+}
+
+/*main .cabeçalho{
+  flex-basis: 100%;
+  margin-bottom: 100px;
+}*/
+
+main .cabeçalho h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+}
+
+main .figuras .fa{
+  font-size: 2em;
+}
+
+main .centro a{
+  text-decoration: none;
+}
+
+/*main .centro{
+  flex-basis: 33%;
+  text-align: center;
+}*/
+
+main .centro p{
+  line-height: 2;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+main .centro h1{
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+main .cabeçalho h1{
+  margin-top: 25px;
+}
+/*FOOTER*/
+footer{
+  background-color: rgb(51, 51, 51);
+}
+
+footer .roda-pé{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+footer .roda-pé .social ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer section .social h1{
+  color: aliceblue;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+footer section .social a{
+  margin: 5px;
+  font-size: 35px;
+  color: yellow;
+}
