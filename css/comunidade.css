@@ -5,8 +5,8 @@ header h1, h2{
 }
 
 body {
-  margin: 0px;
   font-family: 'Bebas Neue', cursive;
+  margin: 0px;
 }
 
 /*HEADER*/
@@ -102,9 +102,7 @@ footer section .opções a:hover{
 
 @media screen and (min-width: 320px) {
   header, main, footer, nav {
-    width: 1349px;
-    /*height: 530px;*/
-    flex-basis: 50%;
+    width: 100%;
+    flex-basis: 50%; /* Ajuste conforme necessário no contexto flexbox */
   }
 }
-  
